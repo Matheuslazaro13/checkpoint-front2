@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header {
+    background-color: #cacaca;
+    text-align: right;
+    align-items: center;
+    padding: 30px;
+}
+
+
+nav a{
+
+    background-color: black;
+    align-items: center;
+    padding: 13px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #cacaca;
+    
+}
+
+nav a:hover {
+    background-color: #ca2913;
+    transition-duration: 2s;
+   
+}
+
+.logoTopo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.banner {
+    background-image: url(../img/netflix.png);
+    align-content: center;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.dh {
+    color: red;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.dh-description {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.explorar {
+    border: 1px solid #33BB69;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button.sinopse{
+    width: 25%;
+   
+
+}
+
+.sinopse {
+    background-color: black;
+    border: solid #ca2913;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #ca2913;
+    font-size: 10px;
+   
+    
+}
+
+.sinopse a {
+    color: #cacaca;
+    text-decoration: none;
+}
+
+.containerPai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.movie {
+    border: solid #ca2913;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    
+}
+
+.movie h2{
+    color: #ca2913;
+    text-align: center;
+}
+
+.movie img {
+    width: 50%;
+align-self: center;}
+
+.movie p {
+    width: 90%;
+    text-align: justify;
+    align-items: center;
+    color: #cacaca
+}
+
+footer {
+    background-color: #ca2913;
+   text-align: center;
+   flex-direction: row;
+   justify-content: space-around;
+   color: #cacaca;
+   padding: 30px;
+}
+
+h4 {
+
+   text-align: center;
+   padding: 15px;
+   color: #cacaca
+}
+
+.aluno1 {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    flex-direction: row;
+   align-items: center;
+   width: 80%;
+   justify-content: space-around;
+    
+}
+.aluno1 a{
+    padding: 10px; 
+}
+
+.aluno2 {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 10px; 
+}
